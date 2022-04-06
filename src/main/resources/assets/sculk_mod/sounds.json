@@ -1,0 +1,47 @@
+{
+  "sculk_ctalyst_place": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "sculk_mod:sculk_catalyst_place1",
+        "stream": false
+      }
+    ]
+  },
+  "sculk_catalyst_break": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "sculk_mod:sculk_catalyst_break1",
+        "stream": false
+      }
+    ]
+  },
+  "sculk_catalyst_step": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "sculk_mod:sculk_catalyst_step1",
+        "stream": false
+      }
+    ]
+  },
+  "sculk_catalyst_hit": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "sculk_mod:sculk_catalyst_step1_1",
+        "stream": false
+      }
+    ]
+  },
+  "sculk_catalyst_fall": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "sculk_mod:sculk_catalyst_step1_2",
+        "stream": false
+      }
+    ]
+  }
+}

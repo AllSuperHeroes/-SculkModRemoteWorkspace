@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "sculk_mod:blocks/sculk_catalyst_bottom",
+    "up": "sculk_mod:blocks/sculk_catalyst_top",
+    "north": "sculk_mod:blocks/sculk_catalyst_side",
+    "east": "sculk_mod:blocks/sculk_catalyst_side",
+    "south": "sculk_mod:blocks/sculk_catalyst_side",
+    "west": "sculk_mod:blocks/sculk_catalyst_side",
+    "particle": "sculk_mod:blocks/sculk_catalyst_bottom"
+  }
+}

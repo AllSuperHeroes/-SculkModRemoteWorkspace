@@ -1,0 +1,7 @@
+{
+  "parent": "sculk_mod:custom/sculk",
+  "textures": {
+    "all": "sculk_mod:blocks/sculk",
+    "particle": "sculk_mod:blocks/sculk"
+  }
+}

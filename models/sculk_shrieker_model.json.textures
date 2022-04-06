@@ -1,0 +1,13 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "4": "sculk_shrieker_side",
+        "5": "sculk_shrieker_top",
+        "6": "sculk_shrieker_bottom",
+        "7": "sculk_shrieker"
+      },
+      "name": "default"
+    }
+  }
+}

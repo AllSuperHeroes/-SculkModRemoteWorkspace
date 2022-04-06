@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "sculk_mod:sculk",
+    "sculk_mod:sculkcatalyst",
+    "sculk_mod:sculk_shrieker"
+  ]
+}

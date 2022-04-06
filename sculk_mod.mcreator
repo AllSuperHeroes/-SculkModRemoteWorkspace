@@ -1,0 +1,256 @@
+{
+  "mod_elements": [
+    {
+      "name": "Sculk",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sculk"
+    },
+    {
+      "name": "Darkness",
+      "type": "potioneffect",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkness"
+    },
+    {
+      "name": "Sculkcatalyst",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sculkcatalyst"
+    },
+    {
+      "name": "SculkShrieker",
+      "type": "block",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sculk_shrieker"
+    },
+    {
+      "name": "Warden",
+      "type": "livingentity",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "warden"
+    },
+    {
+      "name": "DeepDark",
+      "type": "biome",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deep_dark"
+    },
+    {
+      "name": "CityCenter",
+      "type": "structure",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "city_center"
+    },
+    {
+      "name": "SculkSpread",
+      "type": "procedure",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sculk_spread",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SculkMod",
+      "type": "tab",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sculk_mod"
+    },
+    {
+      "name": "SculkSculkSpread",
+      "type": "procedure",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sculk_sculk_spread",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SpawnWarden",
+      "type": "procedure",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spawn_warden",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DarknessProcedure",
+      "type": "procedure",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkness_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "sculk_ctalyst_place",
+      "files": [
+        "sculk_catalyst_place1"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "sculk_catalyst_break",
+      "files": [
+        "sculk_catalyst_break1"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "sculk_catalyst_step",
+      "files": [
+        "sculk_catalyst_step1"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "sculk_catalyst_hit",
+      "files": [
+        "sculk_catalyst_step1_1"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "sculk_catalyst_fall",
+      "files": [
+        "sculk_catalyst_step1_2"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "subtitles.sculk_catalyst_fall": "",
+      "subtitles.sculk_catalyst_break": "",
+      "block.sculk_mod.sculk": "Sculk",
+      "1": "",
+      "subtitles.sculk_ctalyst_place": "",
+      "item.sculk_mod.warden_spawn_egg": "Warden Spawn Egg",
+      "subtitles.sculk_catalyst_hit": "",
+      "biome.sculk_mod.deep_dark": "Deep Dark",
+      "subtitles.sculk_catalyst_step": "",
+      "block.sculk_mod.sculkcatalyst": "Sculk Catalyst",
+      "itemGroup.tabsculk_mod": "Sculk Mod",
+      "entity.sculk_mod.warden": "Warden",
+      "block.sculk_mod.sculk_shrieker": "Sculk Shrieker",
+      "effect.sculk_mod.darkness": "Darkness"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "sculk_mod",
+    "modName": "Sculk Mod",
+    "version": "1.0.0",
+    "author": "Chris, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.17.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.sculkmod",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100354000
+}

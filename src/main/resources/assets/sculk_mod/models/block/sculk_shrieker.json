@@ -1,0 +1,11 @@
+{
+  "parent": "sculk_mod:custom/sculk_shrieker_model",
+  "textures": {
+    "all": "sculk_mod:blocks/sculk_shrieker_side",
+    "particle": "sculk_mod:blocks/sculk_shrieker_side",
+    "4": "sculk_mod:blocks/sculk_shrieker_side",
+    "5": "sculk_mod:blocks/sculk_shrieker_top",
+    "6": "sculk_mod:blocks/sculk_shrieker_bottom",
+    "7": "sculk_mod:blocks/sculk_shrieker"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "subtitles.sculk_catalyst_fall": "",
+  "subtitles.sculk_catalyst_break": "",
+  "block.sculk_mod.sculk": "Sculk",
+  "1": "",
+  "subtitles.sculk_ctalyst_place": "",
+  "item.sculk_mod.warden_spawn_egg": "Warden Spawn Egg",
+  "subtitles.sculk_catalyst_hit": "",
+  "biome.sculk_mod.deep_dark": "Deep Dark",
+  "subtitles.sculk_catalyst_step": "",
+  "block.sculk_mod.sculkcatalyst": "Sculk Catalyst",
+  "itemGroup.tabsculk_mod": "Sculk Mod",
+  "entity.sculk_mod.warden": "Warden",
+  "block.sculk_mod.sculk_shrieker": "Sculk Shrieker",
+  "effect.sculk_mod.darkness": "Darkness"
+}
